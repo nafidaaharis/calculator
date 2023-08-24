@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+
+<body>
+    <div class="main">
+
+
+
+    </div>
+
+    <form>
+        <div class="screen-contents">
+            <input id="output" type="text">
+        </div>
+
+        <div class="first">
+            <div class="num"><input onclick="display(7)" type="button" value="7" name="seven"></button>
+
+            </div>
+            <div class="num"><input onclick="display(8)" type="button" value="8" name="eight"></button>
+            </div>
+            <div class="num"><input onclick="display(9)" type="button" value="9" name="nine"></button>
+            </div>
+            <div class="num">
+                <input onclick="display('÷')" type="button" value="÷" name="divide" id="arith"></button>
+            </div>
+        </div>
+        <div class="first">
+            <div class="num">
+                <input onclick="display(4)" type="button" value="4" name="four"></button>
+            </div>
+            <div class="num">
+                <input onclick="display(5)" type="button" value="5" name="five"></button>
+            </div>
+            <div class="num">
+                <input onclick="display(6)" type="button" value="6" name="six"></button>
+            </div>
+            <div class="num">
+                <input onclick="display('*')" type="button" value="*" name="multiply" id="arith"></button>
+            </div>
+
+        </div>
+        <div class="first">
+            <div class="num">
+                <input onclick="display(1)" type="button" value="1" name="one"></button>
+            </div>
+            <div class="num">
+                <input onclick="display(2)" type="button" value="2" name="two"></button>
+            </div>
+            <div class="num">
+                <input onclick="display(3)" type="button" value="3" name="three"></button>
+            </div>
+            <div class="num">
+                <input onclick="display('-')" type="button" value="-" name="minus" id="arith"></button>
+            </div>
+
+        </div>
+        <div class="first">
+            <div class="num">
+                <input onclick="display(0)" type="button" value="0" name="zero"></button>
+            </div>
+            <div class="num">
+                <input onclick="display('00')" type="button" value="00" name="zero-zero"></button>
+            </div>
+            <div class="num">
+                <input onclick="display('.')" type="button" value="." name="point"></button>
+            </div>
+           
+            <div class="num">
+                <input onclick="display('+')" type="button" value="+" name="plus" id="arith" ></button>
+            </div>
+        </div>
+        <div class="first">
+           
+            <div class="num">
+                <input onclick="clearAll()" type="button" value="C" name="clear" class="ac"></button>
+            </div>
+            <div class="num">
+                <input onclick="display()" type="button" value="AC" name="allClear" class="ac"></button>
+            </div>
+            <div class="num">
+                <input onclick="removeLast()" type="button" value="ON" name="on" class="on" ></button>
+            </div>
+            <div class="num">
+                <input onclick="evaluateExp()" type="button" value="=" name="equal" id="equal" ></button>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+<script src="./calcu.js" >
+
+</script>
+
+</html>
